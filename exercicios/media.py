@@ -1,10 +1,9 @@
 # media e mediana
-a = int(input())
-b = int(input())
+
+numeros = [int(x) for x in input().split()]
 
 media = 0
 mediana = 1
-numeros = [a, b]
 i = -max(numeros)
 while media != mediana:
   numeros.append(i)
